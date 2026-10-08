@@ -1,0 +1,23 @@
+Uitgevoerd
+----------
+- Alle lokale HTML-verwijzingen bestaan; interne ankers kloppen.
+- IDs zijn uniek; één semantisch main-element; vier projectplaceholders.
+- JavaScript-syntax gecontroleerd met node --check.
+- Geen externe fonts of geladen templatebibliotheken nodig.
+- Berekeningen uit CSS: hoofdtekst 15,63:1; secundaire tekst op lichtgrijs
+  5,95:1; blauwe links en primaire knop 6,34:1; contacttekst 10,24:1;
+  contactlabel 8,39:1; tags 7,92:1.
+
+Nog praktisch controleren
+-------------------------
+Er is geen browser beschikbaar in deze omgeving; eerdere browserdownload
+mislukte. Geen claim van geslaagde browser-, mobiele of toetsenbordtests.
+- Schermbreedtes 320, 375, 768, 1024 en 1440px: geen horizontale scrollbar.
+- Browserzoom 200%: tekst en knoppen blijven leesbaar en bereikbaar.
+- Tab/Shift+Tab: skip-link, menu, knoppen, projectlinks en contactlinks.
+- Galerij: Enter opent, focus blijft in dialoog, Escape/Sluiten sluiten,
+  focus keert terug naar de projectlink.
+- Geen JavaScript: projectafbeeldingen openen rechtstreeks.
+- Minder beweging: vloeiend scrollen is uitgeschakeld.
+- Printvoorbeeld: pagina-indeling, afbeeldingen en contactgegevens.
+- Na publicatie: echte URL, mailto- en tel-links testen.
