@@ -34,7 +34,4 @@ Zie CONTROLES.txt. Lokale verwijzingen, IDs, ankers, JS-syntax en contrast
 zijn gecontroleerd. Visuele browser-, mobiele, toetsenbord- en printtests
 staan nog open doordat de lokale browserinstallatie niet beschikbaar was.
 
-Credits
--------
-Oorspronkelijke basis: Strata van HTML5 UP (https://html5up.net).
-LICENSE.txt en zichtbare bronvermelding zijn behouden.
+
