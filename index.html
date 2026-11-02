@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#14243a" />
   <title>Mika Wezelman — Stageportfolio Software Development</title>
   <link rel="stylesheet" href="assets/css/portfolio.css" />
+  <script src="assets/js/project-gallery-data.js" defer></script>
   <script src="assets/js/portfolio.js" defer></script>
 </head>
 <body>
@@ -38,7 +39,9 @@
     <div class="section-heading"><div><p class="eyebrow">Van idee naar uitvoering</p><h2 id="projects-title">Mijn projecten</h2></div><p>Projecten waaraan ik heb gewerkt, met aandacht voor de toepassing en de techniek erachter.</p></div>
     <div class="project-grid">
       <article class="project-card" aria-labelledby="high5kidz-title">
-        <div class="project-cover project-cover-kidz" aria-hidden="true"><span class="cover-kicker">Leren door te ontdekken</span><span class="cover-title">High5Kidz</span><span class="cover-subtitle">Werelden · missies · activiteiten</span></div>
+        <div class="project-gallery" data-gallery="high5kidz" role="region" aria-roledescription="carrousel" aria-label="Screenshots van High5Kidz">
+          <div class="gallery-stage"><p class="gallery-empty">Screenshots van High5Kidz volgen binnenkort.</p></div>
+        </div>
         <div class="project-content">
           <p class="eyebrow">Educatieve webapp · prototype</p>
           <h3 id="high5kidz-title">High5Kidz / Wizzkidz World</h3>
@@ -51,7 +54,9 @@
         </div>
       </article>
       <article class="project-card" aria-labelledby="cabbiecat-title">
-        <div class="project-cover project-cover-cabbie" aria-hidden="true"><span class="cover-kicker">Projectervaring</span><span class="cover-title">Cabbiecat</span><span class="cover-subtitle">Een project waaraan ik heb gewerkt</span></div>
+        <div class="project-gallery" data-gallery="cabbiecat" role="region" aria-roledescription="carrousel" aria-label="Screenshots van Cabbiecat">
+          <div class="gallery-stage"><p class="gallery-empty">Screenshots van Cabbiecat volgen binnenkort.</p></div>
+        </div>
         <div class="project-content">
           <p class="eyebrow">Projectcase in voorbereiding</p>
           <h3 id="cabbiecat-title">Cabbiecat</h3>
@@ -88,6 +93,10 @@
   </div></section>
 </main>
 <footer class="site-footer"><div class="container footer-inner"><p>Mika Wezelman · Stageportfolio</p><a href="#intro">Terug naar boven ↑</a><small>Oorspronkelijke basis: <a href="https://html5up.net">Strata van HTML5 UP</a>.</small></div></footer>
-<dialog id="project-preview" aria-labelledby="preview-title"><div class="preview-toolbar"><h2 id="preview-title">Projectvoorbeeld</h2><button type="button" class="preview-close">Sluiten</button></div><img alt="" /><p class="preview-caption"></p></dialog>
+<dialog id="project-preview" aria-labelledby="preview-title">
+  <div class="preview-toolbar"><h2 id="preview-title">Projectafbeelding</h2><button type="button" class="preview-close">Sluiten</button></div>
+  <div class="preview-stage"></div>
+  <div class="gallery-controls preview-controls"><button type="button" class="gallery-prev" aria-label="Vorige afbeelding">←</button><p class="preview-caption" role="status" aria-live="polite"></p><button type="button" class="gallery-next" aria-label="Volgende afbeelding">→</button></div>
+</dialog>
 </body>
 </html>

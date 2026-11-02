@@ -13,12 +13,9 @@ De oorspronkelijke templatebestanden worden niet geladen en zijn behouden.
 
 Projecten invullen
 -----------------
-De vier kaarten zijn bewust als placeholders gemarkeerd.
-Vervang projectnamen, beschrijvingen, afbeeldingen, alt-teksten, aria-labels
-en de labels 'inhoud volgt'. Vermeld per project je eigen bijdrage,
-gebruikte technieken, resultaat en een repository- of demolink.
-Afbeeldingen staan in images/thumbs/01.jpg t/m 04.jpg en images/fulls/01.jpg
-t/m 04.jpg. Gebruik echte screenshots bij het invullen.
+High5Kidz en Cabbiecat hebben elk een eigen projectkaart en screenshotgalerij.
+Vul de projectcases aan met je eigen bijdrage, resultaat en geleerde lessen.
+Zie Screenshotgalerijen hieronder voor het toevoegen van echte afbeeldingen.
 
 Delen
 -----
@@ -35,3 +32,18 @@ zijn gecontroleerd. Visuele browser-, mobiele, toetsenbord- en printtests
 staan nog open doordat de lokale browserinstallatie niet beschikbaar was.
 
 
+
+Screenshotgalerijen
+-------------------
+Elke projectkaart heeft een eigen slider met pijlen, pijltoetsen en swipe.
+Klik op Vergroten voor de dialoog; Escape of Sluiten sluit deze weer.
+De galerij speelt niet automatisch af. Zonder JS blijft een melding zichtbaar.
+
+1. Sla screenshots op in images/projects/high5kidz/ of images/projects/cabbiecat/.
+2. Open assets/js/project-gallery-data.js.
+3. Vervang src: null door bijvoorbeeld:
+   src: "images/projects/high5kidz/startscherm.png"
+4. Vul alt (beschrijving van het beeld) en caption (bijschrift) in.
+5. Voeg extra objecten toe om meer screenshots te tonen.
+Er zijn nog geen echte screenshots toegevoegd: de drie plaatsen per project
+zijn herkenbare lege plekken. De knop Vergroten wordt actief na het invullen.
